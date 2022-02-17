@@ -1,5 +1,7 @@
+import { interopImportCJSDefault } from "node-cjs-interop";
+
 async function main(): Promise<void> {
-  console.log("poyo");
+  console.log("poyo", interopImportCJSDefault);
 }
 
 main();
